@@ -1,0 +1,74 @@
+.Galeriapelis{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(81, 80, 101);
+
+
+
+    
+
+}
+img{
+    width: 80%;
+    
+    border: solid black 4px;
+    border-radius: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 83px;
+    margin-bottom: 83PX;
+   
+   
+
+}
+img:hover{
+    
+    box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+}
+h1{
+    
+    font-style: oblique;
+   
+   
+}
+a{
+   
+    color:rgb(18, 18, 18);
+    text-decoration: none;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+   font-weight: bold;
+    text-transform:uppercase;
+   
+    
+}
+a:hover{
+    font-size: xx-large;
+    color:rgb(204, 197, 197);
+    text-transform:uppercase;
+
+     
+}
+.Buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 3vh;
+
+}
+.input{
+    width: 30vh;
+    height: 3vh;
+    border-color: black;
+    border-radius: 20px;
+    outline-style: none;
+    font-size: medium;
+    font-weight: bold;
+    
+    background-color: rgb(81, 80, 101);
+    box-shadow: rgb(255, 255, 255) 0px 10px 50px 1px;
+    margin-bottom: 50px;
+    
+}
